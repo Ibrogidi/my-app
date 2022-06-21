@@ -94,8 +94,21 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "my-app:build:production",
+            "firebaseProject": "oshop-b2eb7",
+            "firebaseHostingSite": "oshop-b2eb7"
+          }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "94d46321-27cb-4dc8-a33d-074dafad566a"
   }
 }

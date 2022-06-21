@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "oshop-b2eb7": {
+      "hosting": {
+        "my-app": [
+          "oshop-b2eb7"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "oshop-b2eb7"
+  }
+}
