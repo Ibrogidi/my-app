@@ -242,6 +242,9 @@
   color: rgb(255, 187, 60);
 }
 
+.navbar-light .navbar-toggler {
+  background-color: whitesmoke;
+}
   /* Responsive Styles */
   @media screen and (max-width: 767px) {
    
