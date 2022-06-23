@@ -49,7 +49,7 @@
     flex-direction: column;
 }
 
-.hero {
+.home {
 
 
     background-image: linear-gradient(to top, #4c80ff 100%, #0650d7);
@@ -80,22 +80,6 @@
 }
 
 
-.hero2 {
-
-
-    /* background-image: url(/assets/home-bg.webp); */
-    /* background-repeat: no-repeat;
-    background-size: cover;
-    background-position: bottom center; */
-    height: 100vh;
-    /* color: white; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    z-index: -1
-}
-
 .skills {
 
 
@@ -117,18 +101,21 @@
 .projects {
 
     background-image: linear-gradient(to bottom, #191c37, #303459);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: bottom center;
-    color: white;
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    /* background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    color: white;
+    
+    
+  
     position: relative;
     z-index: -1;
-    padding: 20px;
+    padding: 20px; */
 }
 
 
@@ -136,18 +123,7 @@
 
  
   background-image: linear-gradient(-225deg, #5D9FFF 0%, #B8DCFF 48%, #6BBBFF 100%);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: bottom center;
-  color: white;
   height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  z-index: -1;
-  padding: 20px;
 }
 
 #time{
@@ -166,7 +142,7 @@
     justify-content: center;
 }
 
-.hero::before {
+.home::before {
     content: '';
     position: absolute;
     top: 0;
@@ -177,12 +153,12 @@
     z-index: -1
 }
 
-.hero h1 {
+.home h1 {
     font-size: 46px;
     margin: -20px 0 20px;
 }
 
-.hero p {
+.home p {
     font-size: 20px;
     letter-spacing: 1px;
 
@@ -245,6 +221,30 @@
 .navbar-light .navbar-toggler {
   background-color: whitesmoke;
 }
+.page-footer{
+  background-image: linear-gradient(to top, #0ba360 0%, #3cba92 100%);
+  
+}
+.row{
+  width: 100vw;
+}
+.footer-elements{
+  display: flex;
+  justify-content: space-between;
+}
+
+.row .blue {
+color: white;
+
+
+}
+.copyright{
+  color: white;
+}
+.mat-form-field + .mat-form-field {
+  margin-left: 8px;
+}
+
   /* Responsive Styles */
   @media screen and (max-width: 767px) {
    
