@@ -104,17 +104,19 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    /* background-repeat: no-repeat;
-    background-size: cover;
+    justify-content: center;
+    
+    /* z-index: -1;
+    background-size: cover; 
+    background-repeat: no-repeat;
+  
     background-position: bottom center;
-    color: white;
     
     
   
     position: relative;
-    z-index: -1;
+  
     padding: 20px; */
 }
 
@@ -140,7 +142,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-}
+color: whitesmoke;
+  }
 
 .home::before {
     content: '';

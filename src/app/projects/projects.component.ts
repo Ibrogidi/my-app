@@ -1,5 +1,4 @@
-import { Component, ViewChild } from '@angular/core';
-import { NgbCarousel, NgbSlideEvent, NgbSlideEventSource } from '@ng-bootstrap/ng-bootstrap';
+import { Component } from '@angular/core';
 
 
 @Component({
