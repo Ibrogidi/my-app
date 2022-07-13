@@ -1,40 +1,49 @@
 <nav class="navbar navbar-expand-lg navbar-light  fixed-top scrolling-navbar">
-  <a class="navbar-brand" href="#">
+  <!-- <a class="navbar-brand" href="#">
     Home 
-  </a>
+  </a> -->
+  <a class="nav-link" routerLinkActive=""  routerLinkActive="active" [routerLinkActiveOptions]={exact:true}>Home </a>
 
-  <!-- Step 3: Toggle the value of the property when the toggler button is clicked. -->
+  <span class="spacer"></span>
+    
 
 
   <button class="navbar-toggler" type="button" (click)="isMenuCollapsed = !isMenuCollapsed">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <!-- Step 2: Add the ngbCollapse directive to the element below. -->
 
   <div [ngbCollapse]="isMenuCollapsed" class="collapse navbar-collapse" id="navbarSupportedContent">
 
 
-    
-
-    <div class="spacer"></div>
-    
-
-
-
-    <a class="nav-link" routerLink="login"  routerLinkActive="active">Skills </a>
-
-
-    <a class="nav-link" routerLink="login"  routerLinkActive="active">Certeficates</a>
-
-    <a class="nav-link" routerLink="login"  routerLinkActive="active">Projects </a>
-
-    <a class="nav-link" routerLink="login"  routerLinkActive="active">Contact Me </a>
-
   
+ 
     
-    
-
+    <a class="nav-link" routerLink="login"  routerLinkActive="active">Skills </a>
+  
+  
+    <a class="nav-link" routerLink="login"  routerLinkActive="active">projects</a>
+  
+    <a class="nav-link" routerLink="login"  routerLinkActive="active">Contact me </a>
+  
 
 
   </div>
 </nav>
+
+<!-- <mat-toolbar class="navbar  fixed-top scrolling-navbar">
+  <a class="nav-link" routerLinkActive=""  routerLinkActive="active" [routerLinkActiveOptions]={exact:true}>Home </a>
+
+  
+  <span class="example-spacer"></span>
+  
+  
+  <a class="nav-link" routerLink="login"  routerLinkActive="active">Skills </a>
+
+
+  <a class="nav-link" routerLink="login"  routerLinkActive="active">projects</a>
+
+  <a class="nav-link" routerLink="login"  routerLinkActive="active">Contact me </a>
+
+
+  
+</mat-toolbar> -->
